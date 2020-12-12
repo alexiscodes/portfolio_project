@@ -1,0 +1,81 @@
+html * {
+    color: black;
+    font-family: "Source Code Pro", sans-serif;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+    align-items: center;
+}
+
+/*  Fonts and typography */
+p {
+    Font-weight: 400;
+    Font-size: 14px;
+    Font-Family: "Poppins";
+}
+
+/*  Header section */
+.head {
+    position: fixed;
+    width: 95%;
+    top: 0;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: ghostwhite;
+    z-index: 10;
+}
+
+.home {
+    float: left;
+    width: 33%;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.head a {
+    text-decoration: none;
+}
+
+.index li {
+    list-style-type: none;
+    float: right;
+    padding-left: 2%;
+    text-decoration: none;
+}
+
+/*Intro section*/
+#intro {
+    margin-top: 100px;
+}
+
+/* Project section */
+.listings {
+    display: inline-block;
+    width: 280px;
+    height: 200px;
+    border: 2px solid #C28D9E;
+    border-radius: 25px;
+    padding-top: 25px;
+    text-align: center;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(150, 150, 150, 0)), url("https://www.scdn.co/i/_global/twitter_card-default.jpg");
+
+}
+
+#status {
+    color: #E27D60;
+    font-weight: 520;
+}
+
+/* Skillts section */
+.languages li{
+    list-style-type: none;
+    opacity: 0.9;
+    display: inline-block;
+    width: 50px;
+    margin: 0px;
+    padding-left: 15px;
+}
