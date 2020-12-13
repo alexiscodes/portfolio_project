@@ -3,10 +3,10 @@ html * {
     font-family: "Source Code Pro", sans-serif;
 }
 
-img {
-    max-width:100%;
-    max-height:100%;
-    align-items: center;
+section {
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
 
 /*  Fonts and typography */
@@ -19,17 +19,18 @@ p {
 /*  Header section */
 .head {
     position: fixed;
-    width: 95%;
     top: 0;
     height: 50px;
     padding: 10px 10px;
     background-color: ghostwhite;
     z-index: 10;
+    width: 72%;
+    margin-left: 14%;
 }
 
 .home {
     float: left;
-    width: 33%;
+    width: 20%;
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
@@ -68,6 +69,13 @@ p {
 #status {
     color: #E27D60;
     font-weight: 520;
+}
+
+
+img {
+    max-width:100%;
+    max-height:100%;
+    align-items: center;
 }
 
 /* Skillts section */
